@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NoSaveApp</string>
+    <string name="Nm">Night Mode</string>
+    <string name="Dm">Day Mode</string>
+    <string name="telegram">Telegram</string>
+    <string name="whatsapp">whatsapp</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="Devname">Divyesh V.</string>
+    <string name="createdby">Developed by</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
