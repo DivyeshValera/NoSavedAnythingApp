@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     TextView dev,name;
-    EditText code,number;
+    EditText code,number,sendMsg;
     Button send;
     String codeNum = "+91";
     @Override
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         code = findViewById(R.id.code);
         number = findViewById(R.id.num);
         send = findViewById(R.id.telego);
+        sendMsg = findViewById(R.id.sMsg);
 
         dev.setText(R.string.createdby);
         name.setText(R.string.Devname);
@@ -37,11 +38,18 @@ public class MainActivity extends AppCompatActivity {
                 if(codeNum.equals("+91")){
                     if(number.length() == 10) {
                         Intent intent = new Intent(Intent.ACTION_VIEW);
-                        intent.setData(Uri.parse("https://wa.me/"+codeNum+number.getText().toString()));
+                        intent.setData(Uri.parse("https://wa.me/"+codeNum+number.getText().toString()+"?text="+sendMsg.getText().toString()));
                         startActivity(intent);
                         Toast.makeText(MainActivity.this, codeNum+number.getText().toString(), Toast.LENGTH_SHORT).show();
                     }else{
                         Toast.makeText(MainActivity.this, "Number must be 10 digit", Toast.LENGTH_SHORT).show();
+                    }
+                }else {
+                    if (!codeNum.equals("+91")){
+                        Intent intent = new Intent(Intent.ACTION_VIEW);
+                        intent.setData(Uri.parse("https://wa.me/"+codeNum+number.getText().toString()+"?text="+sendMsg.getText().toString()));
+                        startActivity(intent);
+                        Toast.makeText(MainActivity.this, codeNum+number.getText().toString(), Toast.LENGTH_SHORT).show();
                     }
                 }
 

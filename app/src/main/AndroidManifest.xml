@@ -11,13 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialCoderApp">
         <activity
-            android:name="com.example.Nosaveapp.YoutubeActivity"
+            android:name=".TwitterActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.Nosaveapp.InstagramActivity"
+            android:name=".FacebookActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.Nosaveapp.selectItemActivity"
+            android:name=".InstagramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".selectItemActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,10 +29,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.Nosaveapp.TeleActivity"
+            android:name=".TeleActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.Nosaveapp.MainActivity"
+            android:name=".MainActivity"
             android:exported="false" />
     </application>
 

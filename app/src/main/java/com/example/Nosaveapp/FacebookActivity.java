@@ -9,20 +9,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class YoutubeActivity extends AppCompatActivity implements View.OnClickListener {
+public class FacebookActivity extends AppCompatActivity implements View.OnClickListener {
     Intent intent;
     EditText YAddress;
     Button YGo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_youtube);
+        setContentView(R.layout.activity_facebook);
 
         YAddress = findViewById(R.id.yaddress);
 
         YGo = findViewById(R.id.ygo);
 
-        YGo.setOnClickListener(YoutubeActivity.this);
+        YGo.setOnClickListener(FacebookActivity.this);
 
     }
     private void YoutubeRedirect() {

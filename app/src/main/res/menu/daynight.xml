@@ -5,5 +5,5 @@
         android:id="@+id/DN"
         android:title="@string/Nm" />
     <item android:id="@+id/change"
-        android:title="@string/telegram"/>
+        android:title="@string/info"/>
 </menu>

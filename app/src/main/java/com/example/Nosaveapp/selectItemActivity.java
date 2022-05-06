@@ -26,7 +26,7 @@ public class selectItemActivity extends AppCompatActivity implements AdapterView
     Spinner selectItem;
     EditText addressOfUri;
     ArrayAdapter adapter;
-    String[] AppName = {"Mail","WhatsApp","Telegram","Instagram","Youtube"};
+    String[] AppName = {"Mail","WhatsApp","Telegram","Instagram","Facebook","Twitter"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,10 +63,15 @@ public class selectItemActivity extends AppCompatActivity implements AdapterView
             startActivity(intent);
             Toast.makeText(this, "Instagram", Toast.LENGTH_SHORT).show();
         }
-        if (adapter.getItem(i).toString().equals("Youtube")){
-            Intent intent = new Intent(getApplicationContext(),YoutubeActivity.class);
+        if (adapter.getItem(i).toString().equals("Facebook")){
+            Intent intent = new Intent(getApplicationContext(), FacebookActivity.class);
             startActivity(intent);
-            Toast.makeText(this, "Youtube", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Facebook", Toast.LENGTH_SHORT).show();
+        }
+        if (adapter.getItem(i).toString().equals("Twitter")){
+            Intent intent = new Intent(getApplicationContext(), TwitterActivity.class);
+            startActivity(intent);
+            Toast.makeText(this, "Twitter", Toast.LENGTH_SHORT).show();
         }
     }
     private void instagramRedirect() {
@@ -111,8 +116,8 @@ public class selectItemActivity extends AppCompatActivity implements AdapterView
                 }
                 recreate();
                 break;
-            case R.id.change:Intent intent = new Intent(selectItemActivity.this,TeleActivity.class);
-                startActivity(intent);
+            case R.id.change:
+                Toast.makeText(this, "This App just For Fun 😊", Toast.LENGTH_SHORT).show();
 
                 break;
 

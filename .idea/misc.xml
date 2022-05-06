@@ -5,12 +5,14 @@
       <map>
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_facebook.xml" value="0.2421875" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_instagram.xml" value="0.2421875" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_select_item.xml" value="0.2421875" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_tele.xml" value="0.2421875" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_telegram.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_twitter.xml" value="0.2421875" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/activity_youtube.xml" value="0.2421875" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/contain.xml" value="0.2421875" />
         <entry key="..\:/AndroidProgrames/SocialCoderApp/app/src/main/res/layout/fragment_instagram.xml" value="0.2421875" />
